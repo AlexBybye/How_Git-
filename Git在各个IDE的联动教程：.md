@@ -1,5 +1,3 @@
-
-
 **git在Pycharm的联动教程：** #important  
 打开项目：在PyCharm中打开你的项目。  
 设置Git路径：

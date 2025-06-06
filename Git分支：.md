@@ -1,18 +1,22 @@
-
-
 **分支就是多个方向去开发，互不干扰。**
  
 创建分支  
-git branch 分支名   切换分支  
-git checkout 分支名   创建并切换到分支  
-git checkout -b 分支名   查看分支  
-git branch -v ：基本格式，用于查看本地分支及其最新提交。   上传分支：  
-git push -u origin <branch-name>   合并分支  
+git branch 分支名   
+切换分支  
+git checkout 分支名   
+创建并切换到分支  
+git checkout -b 分支名   
+查看分支  
+git branch -v ：
+基本格式，用于查看本地分支及其最新提交。   
+上传分支：  
+`git push -u origin <branch-name> `
+合并分支  
 git merge 分支名  
 先切换到一个想合并的分支，然后写另一个分支的名字  
 当出现同时修改时，会变成手动合并，手动编辑后git add此文件
 
-删除分支
+## 删除分支
  
 项目主人可以顺利删除远程分支，而普通贡献者则需要遵循团队的权限管理规则。
  

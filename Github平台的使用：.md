@@ -1,5 +1,3 @@
-
-
 创建完仓库，HTTP在git中可以
  
 git remote -v 就是遍览  
